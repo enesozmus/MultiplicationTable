@@ -11,6 +11,8 @@
 		DFE1B1862B9DAF0900F3614D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1B1852B9DAF0900F3614D /* ContentView.swift */; };
 		DFE1B1882B9DAF0A00F3614D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE1B1872B9DAF0A00F3614D /* Assets.xcassets */; };
 		DFE1B18B2B9DAF0A00F3614D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE1B18A2B9DAF0A00F3614D /* Preview Assets.xcassets */; };
+		DFE1B1922B9DAF3600F3614D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1B1912B9DAF3600F3614D /* Game.swift */; };
+		DFE1B1942B9DAF7000F3614D /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1B1932B9DAF7000F3614D /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		DFE1B1852B9DAF0900F3614D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DFE1B1872B9DAF0A00F3614D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFE1B18A2B9DAF0A00F3614D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFE1B1912B9DAF3600F3614D /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		DFE1B1932B9DAF7000F3614D /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				DFE1B1832B9DAF0900F3614D /* MultiplicationTableApp.swift */,
 				DFE1B1852B9DAF0900F3614D /* ContentView.swift */,
+				DFE1B1932B9DAF7000F3614D /* GameView.swift */,
+				DFE1B1912B9DAF3600F3614D /* Game.swift */,
 				DFE1B1872B9DAF0A00F3614D /* Assets.xcassets */,
 				DFE1B1892B9DAF0A00F3614D /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFE1B1862B9DAF0900F3614D /* ContentView.swift in Sources */,
+				DFE1B1922B9DAF3600F3614D /* Game.swift in Sources */,
+				DFE1B1942B9DAF7000F3614D /* GameView.swift in Sources */,
 				DFE1B1842B9DAF0900F3614D /* MultiplicationTableApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
